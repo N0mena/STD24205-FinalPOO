@@ -14,6 +14,8 @@ public class Travailleur {
     private final String email;
     private final long telepehone;
     private final Type type;
-
+    private final Promotion promotion;
+    private final Salaire;
+    private final TotalSalaire totalSalaire;
 
 }
