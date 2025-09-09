@@ -34,13 +34,7 @@ public class Salaire  {
                 .reduce((float)0, (prev , act) -> prev + act);
 
     }
-    public Float getPromotionsTotal(Instant t){
-        return promotions.stream()
-                .filter(promotion -> promotion.getDatePromotion().isBefore(t))
-                .map(Promotion::getPromotionMontant)
-                .reduce((float)0, (prev , act) -> prev + act);
 
-    }
 
 
 }

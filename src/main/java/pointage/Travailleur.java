@@ -15,7 +15,7 @@ public class Travailleur {
     private final long telepehone;
     private final Type type;
     private final Promotion promotion;
-    private final Salaire;
+    private final Salaire salaire;
     private final TotalSalaire totalSalaire;
 
 }

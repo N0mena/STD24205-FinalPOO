@@ -10,7 +10,7 @@ class PointageTest {
     @Test
     public void testVerifyQuota() {
         var pointage = new Pointage("Enseigner", 1,0.5);
-
+        assertEquals("Le quota du temps alloué doit être égal à 1",);
 
     }
 
